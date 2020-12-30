@@ -1,7 +1,13 @@
+# API request to Colorado Steam Gauges on the South Platte River
+
 import requests
 import json
 
-    
+# Arguments for the request.
+# field1 returns the full name of the stream gauge 
+# field2 is the flow measurment in cubin feet per second (cfs)
+# field3 is the abbreviation for the requested stream gauge
+
 field1 = 'stationName'
 field2 = 'measValue'
 field3 = 'PLAHARCO'
