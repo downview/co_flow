@@ -28,6 +28,6 @@ def jprint(obj):
 
 # Only return the Station Name & Stream Flow in cfs
 
-flows  = response.json()['ResultList']
+flows = response.json()['ResultList']
 
 jprint(flows)
